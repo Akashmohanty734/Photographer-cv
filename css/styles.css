@@ -12,8 +12,10 @@ background-color: #C1CFC0;
 }
 h1
 {
+
+
   color: #2C394B;
-  font-size: 5.620rem;
+  font-size: 562.5%;
   margin:0 ;
   font-family: 'Sacramento', cursive;
 
@@ -49,19 +51,23 @@ a:hover{
 
 .top-container
 {
-  margin-top: 0;
-  margin-left: 0;
-  margin-right: 0;
-background-color: #C1CFC0;
+
+
 position: relative;
+text-align: center;
 width: 100%;
-height: 650px;
+height: 700px;
+
 }
 .text{
   position: absolute;
-  top: 10%;
-  left:40%;
+
+  top:20%;
+  left:50%;
+  transform: translate(-50%,-50%);
+
 }
+
 .middle-container
 {
   margin-top: 10px;
@@ -119,3 +125,4 @@ padding: 50px 0 20px;
    border-radius: 20px;
    text-decoration: none;
 }
+
